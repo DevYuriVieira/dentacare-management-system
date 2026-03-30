@@ -14,6 +14,7 @@
 
 ## 📋 Table of Contents
 - [About the Project](#-about-the-project)
+- [Project Structure](#-project-structure)
 - [Core Features](#-core-features)
 - [Database Architecture](#-database-architecture)
 - [Technical Highlights](#-technical-highlights)
@@ -37,6 +38,19 @@ Providing a solid and production-ready foundation for backend applications.
 
 ---
 
+## 📁 Project Structure
+
+```text
+📦 dentacare-management-system
+ ┣ 📂 database
+ ┃ ┗ 📜 script_banco_clinica.sql   # Complete SQL script (DDL, DML, DQL)
+ ┣ 📂 docs
+ ┃ ┣ 🖼️ modelo_conceitual.png      # Conceptual ERD diagram
+ ┃ ┗ 🖼️ modelo_logico.png          # Logical ERD diagram
+ ┗ 📜 README.md                    # Project documentation
+```
+ ---
+
 ## 🎯 Core Features
 * **Patient Management:** Strict data validation (unique CPF, regex validation, valid birth dates).
 * **Dentist Management:** Professional records including license (CRO) and specialties.
@@ -58,10 +72,16 @@ The database is fully normalized to eliminate redundancy and ensure consistency.
 6. `appointment_procedure` *(N:N relationship)*
 
 ### 📊 Data Modeling (ERD)
+*(Conceptual and logical diagrams are available in the repository `docs` folder)*
 
 <div align="center">
-  <img src="./docs/modelo_conceitual.png" width="400"/>
-  <img src="./docs/modelo_logico.png" width="400"/>
+  <h3>Conceptual Model</h3>
+  <img src="./docs/modelo_conceitual.png" width="600" alt="Conceptual Model" />
+  
+  <br><br><br>
+  
+  <h3>Logical Model</h3>
+  <img src="./docs/modelo_logico.png" width="600" alt="Logical Model" />
 </div>
 
 ---
@@ -108,12 +128,12 @@ Developed as a final project for the **Serratec ICT Residency Program**, focused
 
 | Developer | GitHub |
 | :--- | :---: |
-| **Yuri Vieira** | https://github.com/DevYuriVieira |
-| **Pedro Martins** | https://github.com/pedromartins01 |
-| **Marcelo Ribeiro** | https://github.com/marceloribeiro-serratec |
-| **Jhonata Raibolt** | https://github.com/jhonataraibolt |
-| **Lucas Alves** | https://github.com/lucasalvesdacruz0807-stack |
-| **Pedro Dayer** | https://github.com/PedroDayer |
+| **Yuri Vieira** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/DevYuriVieira) |
+| **Pedro Martins** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/pedromartins01) |
+| **Marcelo Ribeiro** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/marceloribeiro-serratec) |
+| **Jhonata Raibolt** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/jhonataraibolt) |
+| **Lucas Alves** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/lucasalvesdacruz0807-stack) |
+| **Pedro Dayer** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/PedroDayer) |
 
 ---
 
@@ -133,6 +153,7 @@ Developed as a final project for the **Serratec ICT Residency Program**, focused
 
 ## 📋 Índice
 - [Sobre o Projeto](#-sobre-o-projeto)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Funcionalidades Principais](#-funcionalidades-principais)
 - [Arquitetura do Banco de Dados](#-arquitetura-do-banco-de-dados)
 - [Destaques Técnicos](#-destaques-técnicos)
@@ -155,6 +176,19 @@ A arquitetura prioriza:
 Fornecendo uma base sólida e pronta para uso em aplicações backend.
 
 ---
+
+## 📁 Estrutura do Projeto
+
+```text
+📦 dentacare-management-system
+ ┣ 📂 database
+ ┃ ┗ 📜 script_banco_clinica.sql   # Script SQL completo (DDL, DML, DQL)
+ ┣ 📂 docs
+ ┃ ┣ 🖼️ modelo_conceitual.png      # Diagrama do Modelo Conceitual (DER)
+ ┃ ┗ 🖼️ modelo_logico.png          # Diagrama do Modelo Lógico (DER)
+ ┗ 📜 README.md                    # Documentação do projeto
+```
+ ---
 
 ## 🎯 Funcionalidades Principais
 * **Gestão de Pacientes:** Validação rigorosa de dados (CPF único, validação com regex, datas válidas).
@@ -181,8 +215,13 @@ O banco de dados é totalmente normalizado para eliminar redundâncias e garanti
 ## 📊 Modelagem de Dados (DER)
 
 <div align="center">
-  <img src="./docs/modelo_conceitual.png" width="400"/>
-  <img src="./docs/modelo_logico.png" width="400"/>
+  <h3>Modelo Conceitual</h3>
+  <img src="./docs/modelo_conceitual.png" width="600" alt="Modelo Conceitual" />
+  
+  <br><br>
+  
+  <h3>Modelo Lógico</h3>
+  <img src="./docs/modelo_logico.png" width="600" alt="Modelo Lógico" />
 </div>
 
 ---
@@ -229,9 +268,9 @@ Projeto desenvolvido na **Residência em TIC do Serratec**, com foco em banco de
 
 | Desenvolvedor | GitHub |
 | :--- | :---: |
-| **Yuri Vieira** | https://github.com/DevYuriVieira |
-| **Pedro Martins** | https://github.com/pedromartins01 |
-| **Marcelo Ribeiro** | https://github.com/marceloribeiro-serratec |
-| **Jhonata Raibolt** | https://github.com/jhonataraibolt |
-| **Lucas Alves** | https://github.com/lucasalvesdacruz0807-stack |
-| **Pedro Dayer** | https://github.com/PedroDayer |
+| **Yuri Vieira** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/DevYuriVieira) |
+| **Pedro Martins** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/pedromartins01) |
+| **Marcelo Ribeiro** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/marceloribeiro-serratec) |
+| **Jhonata Raibolt** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/jhonataraibolt) |
+| **Lucas Alves** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/lucasalvesdacruz0807-stack) |
+| **Pedro Dayer** | [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/PedroDayer) |
